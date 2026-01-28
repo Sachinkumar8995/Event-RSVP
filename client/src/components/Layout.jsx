@@ -27,7 +27,7 @@ const Layout = () => {
                     <div>
                         <h4 className="font-semibold text-gray-900 dark:text-white mb-4">Company</h4>
                         <ul className="space-y-2 text-sm text-gray-500 dark:text-gray-400">
-                            <li><a href="#" className="hover:text-primary-600 dark:hover:text-primary-400">About Us</a></li>
+                            <li><a href="http://localhost:5173/about" className="hover:text-primary-600 dark:hover:text-primary-400">About Us</a></li>
                             <li><a href="#" className="hover:text-primary-600 dark:hover:text-primary-400">Careers</a></li>
                             <li><a href="#" className="hover:text-primary-600 dark:hover:text-primary-400">Contact</a></li>
                         </ul>

@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 // Use your Gmail address and an App Password (NOT your regular Gmail password)
 // How to get App Password: https://support.google.com/accounts/answer/185833
 const GMAIL_USER = 'noreplyeventhub12@gmail.com'; // Your Gmail address
-const GMAIL_APP_PASSWORD = '';
+const GMAIL_APP_PASSWORD = 'gyfjxybdnhixlfvn';
 
 // Create transporter using standard SMTP
 const transporter = nodemailer.createTransport({
@@ -41,7 +41,7 @@ const sendEventReminder = async (userEmail, userName, event) => {
                     <p style="margin: 10px 0;"><strong>Location:</strong> ${event.location}</p>
                     <p style="margin: 10px 0;"><strong>Category:</strong> ${event.category}</p>
                 </div>
-                
+                  
                 <p>${event.description}</p>
                 
                 <p style="margin-top: 30px;">We look forward to seeing you there!</p>
