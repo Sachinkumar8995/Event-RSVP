@@ -110,13 +110,13 @@ const AboutPage = () => {
 
                     <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                         {/* Pranjal Pushpam */}
-                        <div className="bg-white dark:bg-dark-900 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                        {/* <div className="bg-white dark:bg-dark-900 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
                             <div className="aspect-square rounded-xl overflow-hidden mb-4 bg-gray-200 dark:bg-dark-800">
                                 <img src="/pranjal.jpg" alt="Pranjal Pushpam" className="w-full h-full object-cover" />
                             </div>
                             <h3 className="text-xl font-bold text-gray-900 dark:text-white">Pranjal Pushpam</h3>
                             <p className="text-primary-600 dark:text-primary-400 font-medium">Developer & Founder</p>
-                        </div>
+                        </div> */}
 
                         {/* Sachin Kumar */}
                         <div className="bg-white dark:bg-dark-900 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
@@ -130,9 +130,9 @@ const AboutPage = () => {
                         {/* Simran Rani */}
                         <div className="bg-white dark:bg-dark-900 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
                             <div className="aspect-square rounded-xl overflow-hidden mb-4 bg-gradient-to-br from-purple-400 to-pink-400 flex items-center justify-center">
-                                <span className="text-6xl font-bold text-white">SR</span>
+                                <span className="text-6xl font-bold text-white">KK</span>
                             </div>
-                            <h3 className="text-xl font-bold text-gray-900 dark:text-white">Simran Rani</h3>
+                            <h3 className="text-xl font-bold text-gray-900 dark:text-white">Kumari Kriti</h3>
                             <p className="text-primary-600 dark:text-primary-400 font-medium">Developer</p>
                         </div>
                     </div>
